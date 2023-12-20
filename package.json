@@ -1,0 +1,34 @@
+{
+  "name": "ninja-gql",
+  "version": "1.0.0",
+  "description": "graphql tutorial server",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc",
+    "start": "tsx src/index.ts",
+    "dev": "tsx watch src/index.ts",
+    "dev:garph": "tsx watch src/garphServer.ts",
+    "dev:garph-apollo": "tsx watch src/garphApollo.ts"
+  },
+  "keywords": [
+    "graphql",
+    "garph",
+    "apollo",
+    "yoga"
+  ],
+  "author": "Musa gillani",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@apollo/server": "^4.9.5",
+    "garph": "^0.6.4",
+    "graphql": "^16.8.1",
+    "graphql-yoga": "^5.0.2",
+    "tsx": "^4.6.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "typescript": "^5.3.3"
+  },
+  "packageManager": "pnpm"
+}
